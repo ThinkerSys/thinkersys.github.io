@@ -1,76 +1,674 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ThinkerSys</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="ThinkerSys official website">
+  <!-- Favicons -->
+  <link href="img/ThinkersysLogo.png" rel="icon">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-    <title>ThinkerSys</title>
-  
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108095331-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-      gtag('config', 'UA-108095331-1');
-    </script>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  </head>
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-  <body>
+  <!-- =======================================================
+    Theme Name: BizPage
+    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
+<body>
 
-          <div style="display:inline-block; vertical-align: top !important;">
-            <img src="images/ThinkersysLogo3.png">
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <h2 style="position: relative; padding-right: 40px">
+			<a href="#intro" class="scrollto" style="color: #ffffff">
+				ThinkerSys 
+				<img src="img/ThinkersysLogo.png" alt="" title="" style="position: absolute; top: -4px; right: 0" />
+			</a>
+		</h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#team">Team</a></li>
+		  <!--
+          <li class="menu-has-children"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+		  /-->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Welcome to our site</h2>
+                <p>We leverage world-class engineers located around the globe with great experience in state-of-the-art tools and methodologies to help you succeed.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
           </div>
-          <div style="display:inline-block; vertical-align: top !important; padding: 70px;">
-            <h1 id="project_title"> ThinkerSys</h1>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>We provide expert software developers</h2>
+                <p>We are experts in software development and can help your team grow.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
           </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Open up a world of possibilities</h2>
+                <p>Developing software tailored to your business needs provides a definitive advantage.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Leverage our experience</h2>
+                <p>We have decades of experience in the field and can help you find the best solution.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Meet us</h2>
+                <p>Learn more about us through our website and contact us to start a converstaion.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Take note</a></h4>
+            <p class="description">We know the field and can help identify what could work best for your business.</p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">On time</a></h4>
+            <p class="description">We follow Agile methodologies to deliver on time maximizing RoI through evolving solutions.</p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Favorite</a></h4>
+            <p class="description">We adjust to how you work and adapt to your software development practices.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+	<!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>We are a team of software engineers and professionals with decades of combined experience, multiple certifications and solid knowledge, in the field of IT. 
+			Through the years we have helped deliver small to big projects for international clients and sharpend our methodologies and abilities to provide evolving solutions along the way.</p>
         </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                Help our clients succeed by enabling them to leverage software development effectively.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Motto</a></h2>
+              <p>
+                Think better systems.<br/>
+				<br/>				
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                To provide our clients with the power of software.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Services</h3>
+          <p>We help augment software development teams or build them from scratch to increase the productivity of our clients.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <h4 class="title"><a href="">Team creation</a></h4>
+            <p class="description">Creating a team to take you there</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <h4 class="title"><a href="">Team augmentation</a></h4>
+            <p class="description">Maximizing your team capacity</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+            <h4 class="title"><a href="">Expert analysis</a></h4>
+            <p class="description">Identifying your needs</p>
+          </div>
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Let's talk!</h3>
+        <p>You may reach us at <a href="tel:+17078727322">+1 (707) 872-7322</a>, or by email at: </p>
+        <a class="cta-btn" href="mailto:hello@thinkersys.com">hello@thinkersys.com</a>
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Skills Section
+    ============================-->
+    <section id="skills">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Our Skills</h3>
+          <p>We know software development and have experts in many specific technologies. This is what we work on the most:</p>
+        </header>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Software Development, Web development, Web Apps, C# .NET, Python, Django, SQL, Non-relational DBs, Web services, REST<i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Mobile, Responsive apps, Android, Reactjs, Angular, jquery, bootstrap, APIS, others<i class="val">95%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Architecture, Expert analysis, Code reviewing and security assesments, Agile methodologies, Scrum, Kanban<i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Cloud, AWS, Azure, Azure Functions, D365, Integrations, other MS Technologies<i class="val">85%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Facts Section
+    ============================-->
+    <section id="facts"  class="wow fadeIn">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Facts</h3>
+          <p>These numbers may help you get a better perspective</p>
+        </header>
+
+        <div class="row counters">
+
+  			<div class="col-lg-3 col-6 text-center">
+				<span data-toggle="counter-up">5000</span>
+				<p>Users working with our applications worldwide</p>
+  			</div>
+
+			<div class="col-lg-3 col-6 text-center">
+				<span data-toggle="counter-up">500</span>
+				<p>Projects we helped delivered or nurture from scratch</p>
+			</div>
+
+			<div class="col-lg-3 col-6 text-center">
+				<span data-toggle="counter-up">10,000</span>
+				<p>Hours of expert work provided in less than a year</p>
+			</div>
+
+			<div class="col-lg-3 col-6 text-center">
+				<span data-toggle="counter-up">6</span>
+				<p>Hard working engineers and growing</p>
+			</div>
+
+  			</div>
+
+      </div>
+    </section><!-- #facts -->
+
+    <!--==========================
+      Testimonials Section
+    ============================-->
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+		  <p>Read what our clients say about us</p>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Ken</h3>
+            <h4>CIO/CSIO</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Their strong technical skills and excellent management of teams, helped to ensure that the products were delivered with the right functionality and high levels of quality. Always a pleasure to work with.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+            <h3>Steve</h3>
+            <h4>Sr App Dev Manager</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Personable as well as focused on delivering value to his client. Highly collaborative. Effectively managed several teams of contractors during the two years we worked together.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-6.jpg" class="testimonial-img" alt="">
+            <h3>Grady</h3>
+            <h4>CTO</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Well versed in Agile / Scrum development. Able to blend their teams in well with on-shore efforts. Very insightful, diligent and they face any issues head-on. Trusted partners that go the extra mile to get the job done.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-7.jpg" class="testimonial-img" alt="">
+            <h3>Michael</h3>
+            <h4>Vice President, Software Engineering</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Sebastian is very proactive, highly communicative, and well-established in his role. I consider him to be a true partner in maintaining great vendor-client relationships.
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header wow fadeInUp">
+          <h3>Team</h3>
+          <p>We are strong team of highly qualify sotware engineers and certified professionals</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/Seba.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sebastian Pilafis</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/spilafis/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/Fede.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Federico Aguer</h4>
+                  <span>Sr Developer</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/federico-aguer-aa35945/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/Pablo.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Pablo Córdoba</h4>
+                  <span>Ssr Developer</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/pablo-cordoba-123ab8109/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/Andres.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Andrés Aguilar</h4>
+                  <span>Sr Developer</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/andresaguilar" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/Juan.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Juan Bressan</h4>
+                  <span>Sr Developer</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/jmbressan/?locale=es_ES" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/Nahuel.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Nahuel Ciampechini</h4>
+                  <span>Developer</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/nahuel-ciampechini-945934141/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+          <p>We welcome your questions and we'll be willing to answer your call or email.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-6">
+			  <div class="col-md-12">
+				<div class="contact-phone">
+				  <i class="ion-ios-telephone-outline"></i>
+				  <h3>Phone Number</h3>
+				  <p><a href="tel:+17078727322">+1 (707) 872-7322</a></p>
+				</div>
+			  </div>
+
+			  <div class="col-md-12">
+				<div class="contact-phone">
+				  <i class="ion-ios-email-outline"></i>
+				  <h3>Email</h3>
+				  <p><a href="mailto:hello@thinkersys.com">hello@thinkersys.com</a></p>
+				</div>
+			  </div>
+		  </div>
+
+		  <div class="col-md-6">
+			<div class="col-md-12">
+			<!-- Do not change the code! -->
+			<a id="foxyform_embed_link_925997" href="http://www.foxyform.com/">foxyform</a>
+			<script type="text/javascript">
+			(function(d, t){
+			   var g = d.createElement(t),
+				   s = d.getElementsByTagName(t)[0];
+			   g.src = "http://www.foxyform.com/js.php?id=925997&sec_hash=f2a3919fec9&width=350px";
+			   s.parentNode.insertBefore(g, s);
+			}(document, "script"));
+			</script>
+			<!-- Do not change the code! -->		
+			</div>
+          </div>
+
+        </div>
+
+        <div class="form" id="contactform">
+
+		
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>ThinkerSys</h3>
+            <p>We provide expert software development services integrating with your teams or independently.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              New York, United States <br>
+              <strong>Phone:</strong> <a href="tel:+17078727322">+1 (707) 872-7322</a><br>
+              <strong>Email:</strong> <a href="mailto:hello@thinkersys.com">hello@thinkersys.com</a><br>
+            </p>
+
+            <div class="social-links">
+              <a target="_blank" href="https://www.linkedin.com/company/10191380/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-thinkersys-website-on-github" class="anchor" href="#welcome-to-thinkersys-website-on-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to ThinkerSys official website</h3>
-
-<p>We offer a range of consulting services, all designed to help your company reach its full potential. Whether you're looking for a small tweak or a complete overhaul, we have you covered.<br/>
-Our services are available a la carte so you can get precisely what you need.</p>
-
-<h3>
-<a id="our-approach" class="anchor" href="#our-approach" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Our approach</h3>
-
-<p>Each company is unique. One-size-fits-all approaches will never help your business reach its full potential. We deliver custom solutions, tailored to you – your industry, your culture, your one-of-a-kind challenges.</p>
-
-<h3>
-<a id="our-services" class="anchor" href="#our-services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Our services</h3>
-
-<p>We provide experts in software development that will help you identify and build the best solutions for your needs.</p>
-
-<h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h3>
-
-<p>Would you like to talk? <a href="mailto:contact@thinkersys.com">Contact us!</a> and we’ll find a way to help you.</p>
-      </section>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>ThinkerSys</strong>. All Rights Reserved
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p></p>
-      </footer>
-    </div>
+</footer><!-- #footer -->
 
-    
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-  </body>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+</body>
 </html>
