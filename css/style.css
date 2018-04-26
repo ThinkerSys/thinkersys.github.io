@@ -1195,6 +1195,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/* Careers Section
+--------------------------------*/
+#careers {
+  padding: 60px 0;
+}
+
 /* Contact Section
 --------------------------------*/
 #contact {
