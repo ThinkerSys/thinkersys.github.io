@@ -1131,7 +1131,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: url(../img/team-bg.jpg) center top no-repeat fixed;
+  /* background: #fff; */
   padding: 60px 0;
 }
 
