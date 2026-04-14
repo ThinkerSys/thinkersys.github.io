@@ -12,7 +12,7 @@
   <meta property="og:description" content="Practice languages by speaking. Telegram bot that replies with text + audio + a separate clip pronouncing each target-language phrase.">
   <meta property="og:url" content="https://www.thinkersys.com/languagepracticeaibot/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.thinkersys.com/languagepracticeaibot/images/Bot_image.jpeg">
+  <meta property="og:image" content="https://www.thinkersys.com/languagepracticeaibot/images/Bot_landscape.jpg">
 
   <!-- Favicon -->
   <link href="../img/ThinkersysLogo.black.png" rel="icon">
@@ -243,10 +243,13 @@
     .languages h2 { color: #fff; }
     .lang-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 24px;
-      max-width: 900px;
+      max-width: 780px;
       margin: 0 auto;
+    }
+    @media (max-width: 640px) {
+      .lang-grid { grid-template-columns: repeat(2, 1fr); }
     }
     .lang-card {
       background: rgba(255,255,255,0.05);
@@ -364,7 +367,7 @@
 
   <!-- HERO -->
   <section class="hero">
-    <img src="images/Bot_image.jpeg" alt="Language Practice AI mascot — a friendly robot holding a microphone, with the Greek, German, Italian, Japanese, Spanish, and US flags on its chest" class="mascot">
+    <img src="images/Bot_landscape.jpg" alt="Language Practice AI mascot — a friendly robot holding a microphone, with the Greek, German, Italian, Japanese, Spanish, and US flags on its chest and greetings in all six languages" class="mascot">
     <h1>Practice languages by <span class="accent">speaking</span>,<br>not just typing.</h1>
     <p class="lead">
       A Telegram tutor that replies with text + audio AND a separate voice clip
